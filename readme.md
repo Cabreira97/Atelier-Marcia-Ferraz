@@ -1,20 +1,28 @@
-Cores
 
-Rosa 900 #20000A
-Rosa 800 #4f001b
-Rosa 600 #b3003f
-Cinza Escuro #0C0C0C
-Branco #FFFFFF
-Cinza Claro #D2D2D2
+<h1 align="center">Atelier Márcia Ferraz</h1>
 
-Text Styles
-Regular 12  Montserrat 12px
-Regular 14  Montserrat 14px
-Regular 16  Montserrat 16px
-Regular 20  Montserrat 20px
+<img align="center" src="https://user-images.githubusercontent.com/53668902/174456559-1fe81095-4206-4121-8581-98c38491ff7a.jpeg">
 
-Medium 14   Montserrat  14px Weight 500
-Medium 20   Montserrat  20px Weight 500
 
-Semibold 16 Montserrat  16px Weight 600
-Semibold 24 Montserrat  24px Weight 600
+
+<h1 align="center">Cores</h1>
+Rosa 900 #20000A <br>
+Rosa 800 #4f001b<br>
+Rosa 600 #b3003f<br>
+Cinza Escuro #0C0C0C<br>
+Branco #FFFFFF<br>
+Cinza Claro #D2D2D2<br>
+
+
+
+<h1 align="center">Text Styles</h1>
+Regular 12  Montserrat 12px<br>
+Regular 14  Montserrat 14px<br>
+Regular 16  Montserrat 16px<br>
+Regular 20  Montserrat 20px<br>
+
+Medium 14   Montserrat  14px Weight 500<br>
+Medium 20   Montserrat  20px Weight 500<br>
+
+Semibold 16 Montserrat  16px Weight 600<br>
+Semibold 24 Montserrat  24px Weight 600<br>
