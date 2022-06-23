@@ -1,0 +1,172 @@
+:root {
+  /*Cores*/
+  --rosa-900: #20000A;
+  --rosa-800: #4f001b;
+  --rosa-600: #b3003f;
+  --rosa-box: #81002D;
+  --cinza-escuro: #0C0C0C;
+  --branco: #ffffff;
+  --cinza-claro: #D2D2D2;
+
+  /*Fontes- Weight*/
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+  --extrabold: 800;
+
+
+
+
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  overflow: hidden
+}
+
+
+header {
+  background-color: var(--cinza-escuro);
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0px 120px 0 120px;
+  /* topo | direita | inferior | esquerda */
+
+}
+
+.menu-superior {
+  width: 100%;
+  height: 50px;
+  background-color: var(--cinza-escuro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.nome-site {
+  font-size: 24px;
+  font-weight: var(--semibold);
+  color: var(--branco);
+  margin-left: 25.24px;
+}
+
+.logo {
+  width: 41.76px;
+  height: 40px;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.esquerda {
+  background-image: url("../img/fundo-login.png");
+  width: 50vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+.titulo-forme-box {/*ARRUMAR ESSA GAMBI*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.titulo-forme {/*ARRUMAR ESSA GAMBI*/
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: var(--bold);
+  color: var(--branco);
+}
+
+.forme-login {/*ARRUMAR ESSA GAMBI*/
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+
+
+}
+.name-forme{
+  align-self: flex-start;
+  margin-left: 85px;/*ARRUMAR ESSA GAMBI*/
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: var(--branco);
+  font-weight: var(--semibold);
+
+}
+.input-forme {/*ARRUMAR ESSA GAMBI*/
+  width: 80%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+}
+
+.bnt-login{/*ARRUMAR ESSA GAMBI*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn-forme {/*ARRUMAR ESSA GAMBI*/
+  width: 15vw;
+  height: 6vh;
+  background-color: var(--rosa-800);
+  font-size: 14px;
+  font-weight: var(--medium);
+  border-radius: 20px;
+  color: var(--branco);
+  border: none;
+  margin-top: 20%;
+
+}
+.text-senha{/*ARRUMAR ESSA GAMBI*/
+  font-size: 10px;
+  font-weight: var(--medium);
+  color: var(--branco);
+  margin-top: 10px;
+}
+.btn-forme:hover{/*ARRUMAR ESSA GAMBI*/
+  background-color: var(--rosa-600);
+  transition: 200ms;
+}
+
+
+
+.direita {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.img-boneca {
+  margin-bottom: 40px;
+}
+
+.img-login {
+
+  width: 475.45px;
+  height: 500px;
+}

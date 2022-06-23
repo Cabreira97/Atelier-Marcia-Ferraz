@@ -5,8 +5,10 @@
   --rosa-600: #b3003f;
   --rosa-box: #81002D;
   --cinza-escuro: #0C0C0C;
+  --rosa-300: #FF4D8C;
   --branco: #ffffff;
   --cinza-claro: #D2D2D2;
+  --branco-hover:#ffffffb3;
 
   /*Fontes- Weight*/
   --medium: 500;
@@ -16,7 +18,8 @@
 
 
 
-  
+
+
 }
 
 * {
@@ -27,6 +30,11 @@
 
 
 
+}
+header{
+  background-color: var(--cinza-escuro);
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
@@ -44,6 +52,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  max-width: 1200px;
 }
 
 .nome-site {
@@ -81,9 +91,15 @@ a:link {
   color: var(--branco);
 }
 
+.banner-img{
+max-height: 1200px;
+
+}
 .banner {
   width: 100vw;
   height: 85vh;/*Arrumar deepois*/
+
+
 }
 .banner-img{
   
@@ -101,9 +117,8 @@ a:link {
   position: relative;
   top: 60px;
   left: 120px;
-
-
 }
+
 
 .texto-banner-secundario {
   position: relative;
@@ -259,6 +274,8 @@ a:link {
   width: 180px;
   height: 100px;
 
+  line-height: 19px;
+
 
 
   color: var(--branco)
@@ -279,6 +296,10 @@ a:link {
   margin-top: 24px;
   cursor: pointer;
 
+}
+.btn-funciona:hover{
+  background-color: var(--rosa-300);
+  transition: 200ms;
 }
 
 /*margin: 25px 50px 75px 100px;
@@ -335,6 +356,7 @@ left margin is 100px */
 
   margin-left: 15px;
 
+
 }
 .esquerda-btn{
   margin-right: 30px;
@@ -346,6 +368,50 @@ left margin is 100px */
   width: 185px;
   height: 250px;
 }
+
+
+
+.box-hover{
+  position: absolute;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  width: 185px;
+  height: 250px;
+
+
+  background-color:var(--branco);
+}
+.texto-imagem-catalogo-cima, .texto-imagem-catalogo-baixo {
+  opacity: 1; 
+  position: absolute;
+  
+}.texto-imagem-catalogo-cima{
+  margin-bottom: 200px;
+  font-size: 16px;
+  font-weight: var(--bold);
+  color: var(--rosa-800);
+}
+.texto-imagem-catalogo-baixo{
+
+  font-size: 18px;
+  color: var(--rosa-800);
+  font-weight: var(--medium);
+}
+.texto-imagem-catalogo-cima:hover{
+  opacity: 1;
+}
+.texto-imagem-catalogo-baixo:hover{
+  opacity: 1;
+}
+.box-hover:hover{
+  opacity: 0.7;
+  transition:  opacity 1s ;
+  
+}
+
 .btn-catalogo{
   background-color: var(--rosa-800);
   width: 200px;
@@ -362,6 +428,11 @@ left margin is 100px */
  
   margin-top: 24px;
   cursor: pointer;
+
+}
+.btn-catalogo:hover{
+  background-color: var(--rosa-300);
+  transition: 200ms;
 
 }
 footer {
@@ -424,8 +495,8 @@ footer {
 }
 
 .img-email{
-  width: 19.2px;
-  height: 15.6px;
+  width: 24px;
+  height: 20px;
   margin-right: 15px;
   text-align: center;
 }
